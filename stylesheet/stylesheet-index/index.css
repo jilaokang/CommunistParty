@@ -57,7 +57,8 @@ ul.list-inline li {
   transition: transform 0.35s, box-shadow 0.35s, -webkit-box-shadow 0.35s, -moz-box-shadow 0.35s, -moz-transform 0.35s, -webkit-transform 0.35s; }
 
 .title {
-  margin-top: 70px; }
+  margin-top: 70px;
+  font-family: "Adobe Fan Heiti Std B"; }
   .title span {
     font-size: 24px;
     line-height: 0;
@@ -71,10 +72,10 @@ ul.list-inline li {
   word-spacing: 3px;
   letter-spacing: .4px; }
   #header-top a {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.9);
     text-decoration: none; }
     #header-top a:hover {
-      color: rgba(215, 29, 30, 0.91);
+      color: #ca1519;
       transition: color .2s; }
   #header-top a {
     font-size: 0.95em;
@@ -102,18 +103,18 @@ ul.list-inline li {
     word-spacing: 3px;
     letter-spacing: .4px; }
     #nav li a {
-      color: rgba(0, 0, 0, 0.8);
+      color: rgba(0, 0, 0, 0.9);
       text-decoration: none; }
       #nav li a:hover {
-        color: rgba(215, 29, 30, 0.91);
+        color: #ca1519;
         transition: color .2s; }
     #nav li a {
-      color: rgba(0, 0, 0, 0.8);
+      color: rgba(0, 0, 0, 0.9);
       font-size: 1.14em;
       padding: 2px; }
       #nav li a:hover {
         padding-bottom: 6px;
-        border-bottom: 2px solid rgba(215, 29, 30, 0.91);
+        border-bottom: 2px solid #ca1519;
         -webkit-transition: padding-bottom .3s;
         -moz-transition: padding-bottom .3s;
         -ms-transition: padding-bottom .3s;
@@ -151,6 +152,10 @@ ul.list-inline li {
     font-size: 2em;
     color: #AF3333; }
 
+#nav {
+  font-weight: 800;
+  color: #b13030 !important; }
+
 /*-------------------content1-------------------*/
 .container #LBbox #content1 {
   margin-top: 30px; }
@@ -165,7 +170,7 @@ ul.list-inline li {
       margin-right: 30px; }
   .container #LBbox #content1 .content1-position {
     width: 100%;
-    background: #AF3333;
+    background: #b13030;
     padding: 50px; }
   .container #LBbox #content1 .carousel-caption {
     width: 30%;
@@ -179,10 +184,10 @@ ul.list-inline li {
     letter-spacing: .4px;
     text-shadow: none; }
     .container #LBbox #content1 .carousel-caption a {
-      color: rgba(0, 0, 0, 0.8);
+      color: rgba(0, 0, 0, 0.9);
       text-decoration: none; }
       .container #LBbox #content1 .carousel-caption a:hover {
-        color: rgba(215, 29, 30, 0.91);
+        color: #ca1519;
         transition: color .2s; }
     .container #LBbox #content1 .carousel-caption h3 {
       padding-bottom: 5px;
@@ -225,7 +230,7 @@ ul.list-inline li {
       width: 280.5px; }
       #content2 ul li .thumbnail {
         border: none;
-        border-top: 3px solid firebrick;
+        border-top: 3px solid #b13030;
         height: 450px;
         padding: 20px; }
         #content2 ul li .thumbnail img {
@@ -241,10 +246,10 @@ ul.list-inline li {
             letter-spacing: .4px;
             list-style: disc; }
             #content2 ul li .thumbnail .caption ul a {
-              color: rgba(0, 0, 0, 0.8);
+              color: rgba(0, 0, 0, 0.9);
               text-decoration: none; }
               #content2 ul li .thumbnail .caption ul a:hover {
-                color: rgba(215, 29, 30, 0.91);
+                color: #ca1519;
                 transition: color .2s; }
             #content2 ul li .thumbnail .caption ul li {
               list-style: disc;
@@ -259,13 +264,13 @@ ul.list-inline li {
               #content2 ul li .thumbnail .caption ul li a:hover {
                 background-color: transparent; }
       #content2 ul li #content1-expand {
-        background: -webkit-linear-gradient(to top, #30cfd0 0%, #330867 100%);
+        background: -webkit-linear-gradient(to top, #e6d521 0%, #e64747 100%);
         /* Safari 5.1 - 6.0 */
-        background: -o-linear-gradient(to top, #30cfd0 0%, #330867 100%);
+        background: -o-linear-gradient(to top, #e6d521 0%, #e64747 100%);
         /* Opera 11.1 - 12.0 */
-        background: -moz-linear-gradient(to top, #30cfd0 0%, #330867 100%);
+        background: -moz-linear-gradient(to top, #e6d521 0%, #e64747 100%);
         /* Firefox 3.6 - 15 */
-        background: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+        background: linear-gradient(to top, #e6d521 0%, #e64747 100%);
         /* 标准的语法 */
         border: none; }
         #content2 ul li #content1-expand h4 {
@@ -274,7 +279,8 @@ ul.list-inline li {
           line-height: 2.1; }
         #content2 ul li #content1-expand h5 {
           color: rgba(255, 255, 255, 0.8);
-          line-height: 2.3; }
+          line-height: 2.3;
+          font-weight: 800; }
         #content2 ul li #content1-expand div {
           margin: 20px auto 10px; }
           #content2 ul li #content1-expand div img {
@@ -334,14 +340,14 @@ ul.list-inline li {
       text-align: center;
       padding: 15px 15px 0 15px; }
       #theme-content ul div a {
-        color: rgba(0, 0, 0, 0.8);
+        color: rgba(0, 0, 0, 0.9);
         text-decoration: none; }
         #theme-content ul div a:hover {
-          color: rgba(215, 29, 30, 0.91);
+          color: #ca1519;
           transition: color .2s; }
       #theme-content ul div h5 {
         height: 40px;
-        border-bottom: 3px #AF3333 solid;
+        border-bottom: 3px #b13030 solid;
         padding-bottom: 4px;
         margin-bottom: 5px;
         font-weight: 600; }
@@ -355,13 +361,13 @@ ul.list-inline li {
       height: 100%;
       border-radius: 0;
       margin-bottom: 0;
-      background: -webkit-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: -webkit-linear-gradient(to top, #e6d521 0%, #e64747 100%);
       /* Safari 5.1 - 6.0 */
-      background: -o-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: -o-linear-gradient(to top, #e6d521 0%, #e64747 100%);
       /* Opera 11.1 - 12.0 */
-      background: -moz-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: -moz-linear-gradient(to top, #e6d521 0%, #e64747 100%);
       /* Firefox 3.6 - 15 */
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(to top, #e6d521 0%, #e64747 100%);
       /* 标准的语法 */
       display: block; }
       #theme-content ul #web .list-group-item {
@@ -374,5 +380,3 @@ ul.list-inline li {
         color: rgba(255, 255, 255, 0.8); }
         #theme-content ul #web .list-group-item:hover {
           background: rgba(255, 71, 74, 0.8); }
-
-/*# sourceMappingURL=index.css.map */

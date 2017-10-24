@@ -1,28 +1,23 @@
 /*
-Error: Undefined mixin 'header-a'.
-        on line 13 of C:\Users\Volcan\Desktop\party-web\stylesheet\common\header.scss, in `header-a'
-        from line 13 of C:\Users\Volcan\Desktop\party-web\stylesheet\common\header.scss
+Error: Undefined variable: "$heder-color".
+        on line 5 of C:\Users\Volcan\Desktop\party-changed\stylesheet\common\header.scss
 
-8: //sheetstyle
-9: #header-top {
-10:   background-color: $heder-color;
-11:   line-height: 42px;
-12:   height: 42px;
-13:   @include header-a;
-14:   a {
-15:     font-size: $font-size-m;
-16:     color: white;
-17:     opacity: 0.6;
-18:     font-family: "Adobe Fan Heiti Std B";
+1: @charset "utf-8";
+2: 
+3: //sheetstyle
+4: #header-top {
+5:   background-color: $heder-color;
+6:   line-height: 42px;
+7:   height: 42px;
+8:   @include header-a;
+9:   a {
+10:     font-size: $font-size-m;
 
 Backtrace:
-C:\Users\Volcan\Desktop\party-web\stylesheet\common\header.scss:13:in `header-a'
-C:\Users\Volcan\Desktop\party-web\stylesheet\common\header.scss:13
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:98:in `block in with_mixin'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:98:in `with_mixin'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:349:in `visit_mixin'
+C:\Users\Volcan\Desktop\party-changed\stylesheet\common\header.scss:5
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
@@ -52,10 +47,9 @@ C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/ba
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/root_node.rb:20:in `render'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:281:in `render'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:400:in `run'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
@@ -66,4 +60,4 @@ C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'header-a'.\A         on line 13 of C:\Users\Volcan\Desktop\party-web\stylesheet\common\header.scss, in `header-a'\A         from line 13 of C:\Users\Volcan\Desktop\party-web\stylesheet\common\header.scss\A \A 8: //sheetstyle\A 9: #header-top {\A 10:   background-color: $heder-color;\A 11:   line-height: 42px;\A 12:   height: 42px;\A 13:   @include header-a;\A 14:   a {\A 15:     font-size: $font-size-m;\A 16:     color: white;\A 17:     opacity: 0.6;\A 18:     font-family: \"Adobe Fan Heiti Std B\";"; }
+  content: "Error: Undefined variable: \"$heder-color\".\A         on line 5 of C:\Users\Volcan\Desktop\party-changed\stylesheet\common\header.scss\A \A 1: @charset \"utf-8\";\A 2: \A 3: //sheetstyle\A 4: #header-top {\A 5:   background-color: $heder-color;\A 6:   line-height: 42px;\A 7:   height: 42px;\A 8:   @include header-a;\A 9:   a {\A 10:     font-size: $font-size-m;"; }

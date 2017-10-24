@@ -57,7 +57,8 @@ ul.list-inline li {
   transition: transform 0.35s, box-shadow 0.35s, -webkit-box-shadow 0.35s, -moz-box-shadow 0.35s, -moz-transform 0.35s, -webkit-transform 0.35s; }
 
 .title {
-  margin-top: 70px; }
+  margin-top: 70px;
+  font-family: "Adobe Fan Heiti Std B"; }
   .title span {
     font-size: 24px;
     line-height: 0;
@@ -71,10 +72,10 @@ ul.list-inline li {
   word-spacing: 3px;
   letter-spacing: .4px; }
   #header-top a {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.9);
     text-decoration: none; }
     #header-top a:hover {
-      color: rgba(215, 29, 30, 0.91);
+      color: #ca1519;
       transition: color .2s; }
   #header-top a {
     font-size: 0.95em;
@@ -102,18 +103,18 @@ ul.list-inline li {
     word-spacing: 3px;
     letter-spacing: .4px; }
     #nav li a {
-      color: rgba(0, 0, 0, 0.8);
+      color: rgba(0, 0, 0, 0.9);
       text-decoration: none; }
       #nav li a:hover {
-        color: rgba(215, 29, 30, 0.91);
+        color: #ca1519;
         transition: color .2s; }
     #nav li a {
-      color: rgba(0, 0, 0, 0.8);
+      color: rgba(0, 0, 0, 0.9);
       font-size: 1.14em;
       padding: 2px; }
       #nav li a:hover {
         padding-bottom: 6px;
-        border-bottom: 2px solid rgba(215, 29, 30, 0.91);
+        border-bottom: 2px solid #ca1519;
         -webkit-transition: padding-bottom .3s;
         -moz-transition: padding-bottom .3s;
         -ms-transition: padding-bottom .3s;
@@ -151,6 +152,10 @@ ul.list-inline li {
     font-size: 2em;
     color: #AF3333; }
 
+#nav {
+  font-weight: 800;
+  color: #b13030 !important; }
+
 /*-------------------content1-------------------*/
 .content-all {
   margin-top: 23px;
@@ -177,7 +182,7 @@ ul.list-inline li {
       line-height: 1;
       white-space: nowrap;
       padding-left: 5px;
-      border-bottom: 2px solid #AF3333;
+      border-bottom: 2px solid #b13030;
       width: 160px;
       margin: 0;
       letter-spacing: 1px; }
@@ -186,7 +191,7 @@ ul.list-inline li {
         letter-spacing: 0;
         font-size: .55em;
         font-weight: 100;
-        color: #AF3333; }
+        color: #b13030; }
 
 .content-con span {
   padding-bottom: 14px; }
@@ -200,14 +205,14 @@ ul.list-inline li {
     padding-bottom: 20px;
     line-height: 2;
     padding-right: 20px;
-    color: #AF3333;
+    color: #b13030;
     opacity: 0.7; }
   .content-con .title .header-title {
     font-size: 24px;
     line-height: 1;
     white-space: nowrap;
     padding-left: 5px;
-    border-bottom: 2px solid #AF3333;
+    border-bottom: 2px solid #b13030;
     width: 160px;
     margin: 0;
     letter-spacing: 1px; }
@@ -216,7 +221,7 @@ ul.list-inline li {
       letter-spacing: 0;
       font-size: 0.95em;
       font-weight: 100;
-      color: #AF3333; }
+      color: #b13030; }
 .content-con ul {
   padding-top: 20px;
   padding-left: 25px;
@@ -227,10 +232,10 @@ ul.list-inline li {
     word-spacing: 3px;
     letter-spacing: .4px; }
     .content-con ul li a {
-      color: rgba(0, 0, 0, 0.8);
+      color: rgba(0, 0, 0, 0.9);
       text-decoration: none; }
       .content-con ul li a:hover {
-        color: rgba(215, 29, 30, 0.91);
+        color: #ca1519;
         transition: color .2s; }
 
 /*-------------------content2-------------------*/
@@ -259,5 +264,3 @@ ul.list-inline li {
   position: relative;
   -webkit-filter: brightness(123%) sepia(13%) grayscale(5%) invert(15%);
   filter: brightness(123%) sepia(13%) grayscale(5%) invert(15%); }
-
-/*# sourceMappingURL=index-Second.css.map */

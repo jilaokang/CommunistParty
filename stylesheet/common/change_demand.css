@@ -1,22 +1,22 @@
 /*
-Error: Undefined variable: "$heder-color".
-        on line 8 of C:\Users\Volcan\Desktop\party-changed\stylesheet\common\footer.scss
+Error: Undefined variable: "$red-color".
+        on line 6 of C:\Users\Volcan\Desktop\party-changed\stylesheet\common\change_demand.scss
 
-3: /*-------------------footer-------------------*\/
-4: #footer {
-5:   cursor: default;
-6:   bottom: 0;
-7:   height: 280px;
-8:   background-color: $heder-color;
-9:   padding-top: 30px;
-10:   color: #858585 ;
-11:   div {
-12:     img {
-13:       padding-top: 30px;
+1: @charset "utf-8";
+2: 
+3: //1.顶部nav加粗
+4: #nav{
+5:   font-weight: 800;
+6:   color: $red-color !important;
+7: }
 
 Backtrace:
-C:\Users\Volcan\Desktop\party-changed\stylesheet\common\footer.scss:8
+C:\Users\Volcan\Desktop\party-changed\stylesheet\common\change_demand.scss:6
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/script/tree/list_literal.rb:63:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/script/tree/list_literal.rb:63:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
@@ -61,4 +61,4 @@ C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$heder-color\".\A         on line 8 of C:\Users\Volcan\Desktop\party-changed\stylesheet\common\footer.scss\A \A 3: /*-------------------footer-------------------*/\A 4: #footer {\A 5:   cursor: default;\A 6:   bottom: 0;\A 7:   height: 280px;\A 8:   background-color: $heder-color;\A 9:   padding-top: 30px;\A 10:   color: #858585 ;\A 11:   div {\A 12:     img {\A 13:       padding-top: 30px;"; }
+  content: "Error: Undefined variable: \"$red-color\".\A         on line 6 of C:\Users\Volcan\Desktop\party-changed\stylesheet\common\change_demand.scss\A \A 1: @charset \"utf-8\";\A 2: \A 3: //1.顶部nav加粗\A 4: #nav{\A 5:   font-weight: 800;\A 6:   color: $red-color !important;\A 7: }"; }

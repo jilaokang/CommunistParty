@@ -56,10 +56,9 @@ ul.list-inline li {
   transition: transform 0.35s, box-shadow 0.35s, -webkit-box-shadow 0.35s, -moz-box-shadow 0.35s, -moz-transform 0.35s, -webkit-transform 0.35s; }
 
 .title {
-  margin-top: 70px; }
+  margin-top: 70px;
+  font-family: "Adobe Fan Heiti Std B"; }
   .title span {
     font-size: 24px;
     line-height: 0;
     letter-spacing: 1px; }
-
-/*# sourceMappingURL=var_mixin_css.css.map */

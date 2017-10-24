@@ -57,7 +57,8 @@ ul.list-inline li {
   transition: transform 0.35s, box-shadow 0.35s, -webkit-box-shadow 0.35s, -moz-box-shadow 0.35s, -moz-transform 0.35s, -webkit-transform 0.35s; }
 
 .title {
-  margin-top: 70px; }
+  margin-top: 70px;
+  font-family: "Adobe Fan Heiti Std B"; }
   .title span {
     font-size: 24px;
     line-height: 0;
@@ -71,10 +72,10 @@ ul.list-inline li {
   word-spacing: 3px;
   letter-spacing: .4px; }
   #header-top a {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.9);
     text-decoration: none; }
     #header-top a:hover {
-      color: rgba(215, 29, 30, 0.91);
+      color: #ca1519;
       transition: color .2s; }
   #header-top a {
     font-size: 0.95em;
@@ -102,18 +103,18 @@ ul.list-inline li {
     word-spacing: 3px;
     letter-spacing: .4px; }
     #nav li a {
-      color: rgba(0, 0, 0, 0.8);
+      color: rgba(0, 0, 0, 0.9);
       text-decoration: none; }
       #nav li a:hover {
-        color: rgba(215, 29, 30, 0.91);
+        color: #ca1519;
         transition: color .2s; }
     #nav li a {
-      color: rgba(0, 0, 0, 0.8);
+      color: rgba(0, 0, 0, 0.9);
       font-size: 1.14em;
       padding: 2px; }
       #nav li a:hover {
         padding-bottom: 6px;
-        border-bottom: 2px solid rgba(215, 29, 30, 0.91);
+        border-bottom: 2px solid #ca1519;
         -webkit-transition: padding-bottom .3s;
         -moz-transition: padding-bottom .3s;
         -ms-transition: padding-bottom .3s;
@@ -151,6 +152,10 @@ ul.list-inline li {
     font-size: 2em;
     color: #AF3333; }
 
+#nav {
+  font-weight: 800;
+  color: #b13030 !important; }
+
 .list-group .list-group-item {
   margin: 0;
   padding: 0;
@@ -165,12 +170,12 @@ ul.list-inline li {
   color: white; }
 
 a {
-  color: rgba(0, 0, 0, 0.8); }
+  color: rgba(0, 0, 0, 0.9); }
   a:hover {
     text-decoration: none; }
 
 #small {
-  color: rgba(0, 0, 0, 0.8) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   padding-right: 16px; }
 
 #list-group-1 .list-group-item {
@@ -203,12 +208,12 @@ a {
   border-radius: 1px; }
   #list-group-3-header #title {
     font-size: 24px;
-    color: #ca3838; }
+    color: #b13030; }
   #list-group-3-header a {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.9);
     text-decoration: none; }
     #list-group-3-header a:hover {
-      color: rgba(215, 29, 30, 0.91);
+      color: #ca1519;
       transition: color .2s; }
 
 #list-group-3-list ul {
@@ -225,7 +230,7 @@ a {
     height: 37px; }
     #list-group-3-list ul li:hover {
       background: rgba(255, 255, 255, 0.7);
-      color: #AF3333; }
+      color: #b13030; }
     #list-group-3-list ul li span {
       float: right;
       width: 75px;
@@ -247,7 +252,7 @@ a {
       color: white;
       background: rgba(200, 0, 0, 0.6); }
   #list-group-3-footer .up-down:hover {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.9);
     background: none; }
 
 #content {
@@ -290,8 +295,6 @@ a {
     font-size: 0.90em;
     margin-top: 20px; }
     #list-group-3-content #foot a:hover {
-      color: #AF3333; }
+      color: #b13030; }
     #list-group-3-content #foot .right {
       float: right; }
-
-/*# sourceMappingURL=content.css.map */

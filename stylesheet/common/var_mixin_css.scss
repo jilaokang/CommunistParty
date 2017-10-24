@@ -2,6 +2,7 @@
 
 @import "fix_bug";
 
+
 //*******************************//
 //********  板块间距变量  ********//
 //*******************************//
@@ -31,10 +32,14 @@ $margin-buttom: 40px+5px;
 $white-color:rgba(255,255,255,.8);
 
 //基础黑色字体颜色
-$font-color: rgba(0,0,0,.8);
+$font-color: rgba(0,0,0,0.9);
+
+//基础字体红色
+$red-color: #b13030;
 
 //hover时字体红色颜色
-$touch-font: rgba(215, 29, 30, 0.91);
+$touch-font: #ca1519;
+
 
 
 //中号字体
@@ -45,7 +50,13 @@ $font-size-m: 0.95em;
 
 //小号字体
 
+//*******************************//
+//******** footer_header ********//
+//*******************************//
 
+$heder-color: #333333;
+$header-font-color: #858585;
+$header-margin: 9px;
 
 //*******************************//
 //********     mixin     ********//
@@ -151,6 +162,7 @@ ul.list-inline li {
 //title样式
 .title {
   margin-top: $margin-content+20px;
+  font-family: "Adobe Fan Heiti Std B";
   span {
     font-size: $font-size-title;
     line-height: 0;

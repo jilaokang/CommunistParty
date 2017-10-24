@@ -3,6 +3,7 @@
 @import "../common/header";
 @import "../common/footer";
 @import "../common/common.css";
+@import "../common/change_demand";
 
 .list-group {
   .list-group-item {
@@ -68,7 +69,7 @@ a {
   height: 38px;
   #title {
     font-size: $font-size-title;
-    color: #ca3838;
+    color: $red-color;
   }
   @include header-a;
   border-bottom: solid rgba(0, 0, 0, .2) 1px;
@@ -89,7 +90,7 @@ a {
       height: 37px;
       &:hover{
         background: rgba(255,255,255,.7);
-        color: #AF3333;
+        color: $red-color;
       }
       span {
         float: right;
