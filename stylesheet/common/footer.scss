@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*-------------------footer-------------------*/
+#footer {
+  cursor: default;
+  bottom: 0;
+  height: 280px;
+  background-color: $heder-color;
+  padding-top: 30px;
+  color: #858585 ;
+  div {
+    img {
+      padding-top: 30px;
+      width: 55%;
+    }
+  }
+  h5 {
+    font-size: $font-size-m;
+    line-height: 2.6;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+  .indent {
+    text-indent: 2em;
+  }
+  h6 {
+    color: #858585!important; ;
+    font-size: 14.4px;
+    line-height: 2.4;
+  }
+  a{
+    h6{
+      &:hover{
+        color: #FFFFFF!important;
+      }
+    }
+  }
+  .glyphicon {
+    top: 13px;
+    left: -10px;
+    position: absolute;
+    font-size: 2em;
+    color: #AF3333;
+  }
+}

@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+@import "fix_bug";
+
+//*******************************//
+//********  板块间距变量  ********//
+//*******************************//
+
+//大板块块间间距
+$margin-content: 45px+5px;
+
+//版块小版块内左右间距
+$margin: 16px;
+
+//导航栏之前
+$margin-content-s: 25px+5px;
+
+//板块title与content间距
+$margin-belong: 23px;
+
+//content与底部间距
+$margin-buttom: 40px+5px;
+
+
+
+//*******************************//
+//********  字体颜色变量  ********//
+//*******************************//
+
+//基础白色字体颜色
+$white-color:rgba(255,255,255,.8);
+
+//基础黑色字体颜色
+$font-color: rgba(0,0,0,.8);
+
+//hover时字体红色颜色
+$touch-font: rgba(215, 29, 30, 0.91);
+
+
+//中号字体
+$font-size-title:24px;
+
+$font-size-l: 1.1em;
+$font-size-m: 0.95em;
+
+//小号字体
+
+
+
+//*******************************//
+//********     mixin     ********//
+//*******************************//
+
+//字体hover后效果
+@mixin header-a {
+  font-size: $font-size-m;
+  word-spacing: 3px;
+  letter-spacing: .4px;
+  a {
+    color: $font-color;
+    text-decoration: none;
+    &:hover {
+      color: $touch-font;
+      transition: color .2s;
+    }
+  }
+}
+
+//lispace-between样式
+@mixin space-between {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+}
+
+//字体取消选择和鼠标样式默认
+@mixin font-unable {
+  -webkit-user-select: none; /* Chrome all / Safari all /opera15+*/
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+  cursor: default;
+}
+
+
+
+//*******************************//
+//********    公共样式    ********//
+//*******************************//
+
+//整体样式 - 背景渐变色+字体不可选
+body {
+  background-image: linear-gradient(to top, #eff3f7 0%, white 100%);
+  @include font-unable;
+}
+
+//取消所有的col的默认padding
+div[class*="col-"] {
+  padding: 0;
+}
+
+//取消所有的li默认paddding
+ul.list-inline li {
+  padding: 0;
+}
+
+//图片滤镜
+.filter {
+  -webkit-filter: contrast(147%) brightness(104%) saturate(119%) invert(13%);
+  filter: contrast(147%) brightness(104%) saturate(119%) invert(13%);
+}
+
+//thumbnail修改后样式
+.thumbnail {
+  margin: 0;
+  border-radius: 1px;
+  h3 {
+    letter-spacing: 1px;
+  }
+  li {
+    a:hover {
+      background-color: rgba(0, 0, 0, .02);
+    }
+  }
+}
+
+//小版块的shadow参数
+.box-shadow {
+  &:hover {
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    transform: translateY(-5px);
+
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+
+    -webkit-transition: transform .35s,box-shadow .35s,-webkit-box-shadow .35s,-moz-box-shadow .35s,-moz-transform .35s,-webkit-transform.35s;
+    -moz-transition: transform .35s,box-shadow .35s,-webkit-box-shadow .35s,-moz-box-shadow .35s,-moz-transform .35s,-webkit-transform.35s;
+    -ms-transition: transform .35s,box-shadow .35s,-webkit-box-shadow .35s,-moz-box-shadow .35s,-moz-transform .35s,-webkit-transform.35s;
+    -o-transition: transform .35s,box-shadow .35s,-webkit-box-shadow .35s,-moz-box-shadow .35s,-moz-transform .35s,-webkit-transform.35s;
+    transition: transform .35s,box-shadow .35s,-webkit-box-shadow .35s,-moz-box-shadow .35s,-moz-transform .35s,-webkit-transform.35s;
+  }
+}
+
+//title样式
+.title {
+  margin-top: $margin-content+20px;
+  span {
+    font-size: $font-size-title;
+    line-height: 0;
+    letter-spacing: 1px;
+  }
+}

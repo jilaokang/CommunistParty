@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/*
+  fix-bug
+  Time:2017年10月24日
+  Author:钱博康
+
+  bug:BOM缩小导致的布局混乱
+  fix:
+    md->xs 跳过js对分辨率的转换
+    container->1170px 确定container防止页面随Bom缩小而变动
+*/
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}

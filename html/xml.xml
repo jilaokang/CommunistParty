@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    　<InputEncoding>UTF-8</InputEncoding>
+    　<ShortName>武汉学院党建思政网</ShortName>
+    　<Description>武汉学院党建思政网,党建思政网，武汉学院,党建思政</Description>
+    　<Image height="16" width="16" type="image/vnd.microsoft.icon">images/favicon.ico</Image>
+    　<Url type="text/html" template="search.PHP?keyword={searchTerms}" />
+</OpenSearchDescription>
