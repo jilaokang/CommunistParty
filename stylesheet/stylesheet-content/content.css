@@ -201,12 +201,15 @@ a {
   padding: 10px;
   border-color: white; }
 #list-group-1 a {
-  font-size: 1.1em; }
+  font-size: 1.1em;
+  border: none; }
+  #list-group-1 a:hover {
+    background: #b13030; }
 
 .active {
   font-size: 1.1em !important;
   line-height: 28px !important;
-  background: rgba(0, 0, 0, 0.65) !important; }
+  background: #b13030 !important; }
 
 #list-group-2 .list-group-item {
   margin: 0;
@@ -214,7 +217,9 @@ a {
   border-color: white; }
 #list-group-2 a {
   font-size: 0.95em;
-  line-height: 1.15; }
+  border: none; }
+  #list-group-2 a:hover {
+    background: #b13030; }
 
 #list-group-3-header {
   line-height: 30px;

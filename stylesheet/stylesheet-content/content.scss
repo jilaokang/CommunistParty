@@ -42,16 +42,19 @@ a {
     padding: 10px;
     border-color: white;
   }
-
   a {
     font-size: $font-size-l;
+    border: none;
+    &:hover{
+      background: $red-color;
+    }
   }
 }
 
 .active {
   font-size: $font-size-l !important;
   line-height: 28px !important;
-  background: rgba(0, 0, 0, .65) !important;
+  background: $red-color!important;
 }
 
 #list-group-2 {
@@ -62,7 +65,10 @@ a {
   }
   a {
     font-size: $font-size-m;
-    line-height: 1.15;
+    border: none;
+    &:hover{
+      background: $red-color;
+    }
   }
 }
 
