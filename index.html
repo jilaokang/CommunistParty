@@ -30,9 +30,6 @@
 
     <link rel="stylesheet" href="stylesheet/stylesheet-index/index.css">
 </head>
-<script>
-
-</script>
 <body>
 <!--頂部部分-->
 <div class="container-fluid" id="header-top">
@@ -109,42 +106,45 @@
     </div>
 </div>
 
+<!--消息通知-->
 <div class="container">
     <div class="row" id="ad">
         <div class="col-xs-1" style="width: 36px">
             <img src="image/喇叭.png">
         </div>
-        <div class="col-xs-9" id="ad_content" style="margin-top: 0">
+        <div class="col-xs-9" id="ad_con" style="margin-top: 0">
             <h5>
-                <b>2017年10月30日</b>
+                <b>2017年10月29日</b>
                 <a href="#"><b>请各单位积极收看十九大全国人民代表大会！并上交思想汇报。</b></a>
             </h5>
             <h5>
                 <b>2017年10月30日</b>
-                <a href="#"><b>请各单位积极收看十九大全国人民代表大会！并上交思想汇报。-36</b></a>
+                <a href="#"><b>党中央急需各位的思想汇报，快交！</b></a>
             </h5>
             <h5>
-                <b>2017年10月30日</b>
-                <a href="#"><b>请各单位积极收看十九大全国人民代表大会！并上交思想汇报。-72</b></a>
+                <b>2017年10月31日</b>
+                <a href="#"><b>没交报告的请自行注销党支部。</b></a>
             </h5>
         </div>
     </div>
 </div>
 
+<!--消息轮播-->
 <script>
     window.onload = function () {
-    var ad_content = document.getElementById('ad_content');
         setInterval(() => {
-            var margin_top = parseInt(ad_content.style.marginTop, 10);
+            var margin_top = parseInt($('#ad_con')[0].style.marginTop, 10);
             margin_top = margin_top - 36;
             if (margin_top === -108) {
                 margin_top = 0;
-                $('#ad_content').css('margin-top', 0);
+                $('#ad_con').css('margin-top', 0);
             } else {
-                $('#ad_content').css('margin-top', margin_top);
+                $('#ad_con').css('margin-top', margin_top);
             }
-        }, 2000);}
+        }, 2000);
+    }
 </script>
+
 <!--分割标题-->
 <div class="container">
     <div class="row title">
