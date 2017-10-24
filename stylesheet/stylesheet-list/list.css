@@ -162,10 +162,11 @@ ul.list-inline li {
   border-radius: 2px;
   padding-left: 24px !important; }
 .list-group a {
-  background: white; }
+  background: white;
+  border: 0; }
   .list-group a:hover {
     color: white;
-    background: rgba(0, 0, 0, 0.3); }
+    background: #b13030; }
 .list-group .active {
   color: white; }
 
@@ -188,7 +189,7 @@ a {
 .active {
   font-size: 1.1em !important;
   line-height: 28px !important;
-  background: rgba(0, 0, 0, 0.65) !important; }
+  background: #b13030 !important; }
 
 #list-group-2 .list-group-item {
   margin: 0;
