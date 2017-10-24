@@ -121,7 +121,7 @@ $imgandnotic-height: 480px;
         background: -webkit-linear-gradient(to top, #e6d521 0%, #e64747 100%); /* Safari 5.1 - 6.0 */
         background: -o-linear-gradient(to top, #e6d521 0%, #e64747 100%);/* Opera 11.1 - 12.0 */
         background: -moz-linear-gradient(to top, #e6d521 0%, #e64747 100%); /* Firefox 3.6 - 15 */
-        background: linear-gradient(to top, #e6d521 0%, #e64747 100%); /* 标准的语法 */
+        background: linear-gradient(to top, #e1d11f 0%, #d94949 100%); /* 标准的语法 */
         border: none;
         h4 {
           color: $white-color;
@@ -202,10 +202,10 @@ $imgandnotic-height: 480px;
       height: 100%;
       border-radius: 0;
       margin-bottom: 0;
-      background: -webkit-linear-gradient(to top, #e64747  0%, #e6d521 100%);/* Safari 5.1 - 6.0 */
-      background: -o-linear-gradient(to top, #e64747  0%, #e6d521 100%); /* Opera 11.1 - 12.0 */
-      background: -moz-linear-gradient(to top, #e64747  0%, #e6d521 100%);  /* Firefox 3.6 - 15 */
-      background:linear-gradient(to top, #e64747  0%, #e6d521 100%);/* 标准的语法 */
+      background: -webkit-linear-gradient(to top, #d94949 0%, #e1d121 100%);/* Safari 5.1 - 6.0 */
+      background: -o-linear-gradient(to top, #d94949 0%, #e1d121 100%);/* Opera 11.1 - 12.0 */
+      background: -moz-linear-gradient(to top, #d94949 0%, #e1d121 100%);  /* Firefox 3.6 - 15 */
+      background:linear-gradient(to top, #d94949 0%, #e1d121 100%);/* 标准的语法 */
       display: block;
       .list-group-item {
         width: 76%;
