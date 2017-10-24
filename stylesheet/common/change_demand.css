@@ -9,6 +9,10 @@ Error: Undefined variable: "$red-color".
 5:   font-weight: 800;
 6:   color: $red-color !important;
 7: }
+8: 
+9: #ad{
+10:   height: 36px;
+11:   margin-top: 20px;
 
 Backtrace:
 C:\Users\Volcan\Desktop\party-changed\stylesheet\common\change_demand.scss:6
@@ -61,4 +65,4 @@ C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$red-color\".\A         on line 6 of C:\Users\Volcan\Desktop\party-changed\stylesheet\common\change_demand.scss\A \A 1: @charset \"utf-8\";\A 2: \A 3: //1.顶部nav加粗\A 4: #nav{\A 5:   font-weight: 800;\A 6:   color: $red-color !important;\A 7: }"; }
+  content: "Error: Undefined variable: \"$red-color\".\A         on line 6 of C:\Users\Volcan\Desktop\party-changed\stylesheet\common\change_demand.scss\A \A 1: @charset \"utf-8\";\A 2: \A 3: //1.顶部nav加粗\A 4: #nav{\A 5:   font-weight: 800;\A 6:   color: $red-color !important;\A 7: }\A 8: \A 9: #ad{\A 10:   height: 36px;\A 11:   margin-top: 20px;"; }
