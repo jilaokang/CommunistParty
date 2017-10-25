@@ -65,6 +65,7 @@ a {
   }
   a {
     font-size: $font-size-m;
+    line-height: 2;
     border: none;
     &:hover{
       background: $red-color;

@@ -8,11 +8,15 @@
   fix:
     md->xs 跳过js对分辨率的转换
     container->1170px 确定container防止页面随Bom缩小而变动
+    container-fluid匹配
 */
 .container {
   width: 1170px;
   margin: 0 auto; }
 
+@media screen and (max-width: 1224px) {
+  .container-fluid {
+    width: 1224px; } }
 body {
   background-image: linear-gradient(to top, #eff3f7 0%, white 100%);
   -webkit-user-select: none;

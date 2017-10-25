@@ -8,7 +8,12 @@
   fix:
     md->xs 跳过js对分辨率的转换
     container->1170px 确定container防止页面随Bom缩小而变动
+    container-fluid匹配
 */
 .container {
   width: 1170px;
   margin: 0 auto; }
+
+@media screen and (max-width: 1224px) {
+  .container-fluid {
+    width: 1224px; } }
