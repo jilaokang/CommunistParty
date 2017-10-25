@@ -127,8 +127,7 @@
         </div>
     </div>
 </div>
-
-<!--消息轮播-->
+<!--消息通知_js-->
 <script>
     window.onload = function () {
         setInterval(() => {
@@ -307,12 +306,44 @@
                     <h5>加入我们</h5>
                     <h6>新闻投稿</h6>
                     <a href="http://rs.whxy.net/list.aspx?id=523"> <h6>面试招聘</h6></a>
-                    <h6>留言反馈</h6>
+                    <a href="#"><h6  data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">留言反馈</h6></a>
                     <a href="http://www.whdi.gov.cn/"><h6>监督举报</h6></a>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<!--留言反馈-模态框-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">留言反馈</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <textarea class="form-control" style="height: 288px" id="message-text" onclick="this.value=('')">请说出你想说的话吧，希望回复也可以留下联系方式哦~</textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button id="send" type="button" class="btn btn-primary">发送</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--留言反馈_js-->
+<script>
+    $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').focus();
+    });
+    $('#send').click(function () {
+        alert('发送成功，谢谢您的反馈！')
+    });
+</script>
+
 </body>
 </html>
