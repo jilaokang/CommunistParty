@@ -114,7 +114,7 @@ ul.list-inline li {
         transition: color .2s; }
     #nav li a {
       color: rgba(0, 0, 0, 0.9);
-      font-size: 1.14em;
+      font-size: 1.2em;
       padding: 2px; }
       #nav li a:hover {
         padding-bottom: 6px;
