@@ -118,7 +118,7 @@ ul.list-inline li {
       padding: 2px; }
       #nav li a:hover {
         padding-bottom: 6px;
-        border-bottom: 2px solid #ca1519;
+        border-bottom: 3px solid #ca1519;
         -webkit-transition: padding-bottom .3s;
         -moz-transition: padding-bottom .3s;
         -ms-transition: padding-bottom .3s;
